@@ -1,1 +1,6 @@
-
+- name: teste scm
+  description: ''
+  loglevel: INFO
+  sequence:
+    commands:
+      - exec: free -m
